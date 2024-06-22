@@ -8,11 +8,11 @@
 <fx:root maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" type="AnchorPane" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.argus.HelloController">
    <children>
       <WebView layoutY="30.0" prefHeight="373.0" prefWidth="600.0" />
-      <TextField layoutX="127.0" layoutY="2.0" prefHeight="25.0" prefWidth="326.0" />
-      <Button layoutX="7.0" layoutY="2.0" mnemonicParsing="false" text="Button" />
-      <Button layoutX="66.0" layoutY="2.0" mnemonicParsing="false" text="Button" />
-      <Button layoutX="460.0" layoutY="2.0" mnemonicParsing="false" text="refresh" />
-      <Button layoutX="520.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" text="-" />
-      <Button layoutX="561.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" text="+" />
+      <TextField fx:id="urlTextField" layoutX="164.0" layoutY="2.0" prefHeight="25.0" prefWidth="342.0" />
+      <Button fx:id="backButton" layoutX="7.0" layoutY="2.0" mnemonicParsing="false" text="back" />
+      <Button fx:id="nextButton" layoutX="54.0" layoutY="2.0" mnemonicParsing="false" text="next" />
+      <Button fx:id="refreshButton" layoutX="101.0" layoutY="2.0" mnemonicParsing="false" text="refresh" />
+      <Button fx:id="zoomOutButton" layoutX="513.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" text="-" />
+      <Button fx:id="zoomInButton" layoutX="554.0" layoutY="2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="32.0" text="+" />
    </children>
 </fx:root>
