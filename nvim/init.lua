@@ -14,6 +14,7 @@ require "user.autopairs"
 -- require "user.nvim-tree"
 require('nvim-tree').setup{}
 require "user.toggleterm"
+require "user.dashboard"
 vim.cmd "colorscheme codemonkey"
 
 -- Ensure LSP config is available
